@@ -1,0 +1,77 @@
+body {
+background-color: #afc9e3;
+color: #333;
+font-family: 'Arial',sans-serif;
+line-height: 1.6;
+}
+/*Header Styling*/
+header nav ul {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li {
+display: inline;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+header nav ul li a:hover {
+    background-color: #575757;
+}
+/*Section Styling*/
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color:#333;
+}
+/*Image Styling*/
+.img hobby-images {
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.img:hover hobby-images {
+    transform: scale(1.1);
+}
+/*Form Styling*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+from label, from input, from button{
+    margin: 10px 0;
+}
+button {
+background-color: #333;
+color: #fff;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+    background-color: #575757;
+}
+/*Footer Styling*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
